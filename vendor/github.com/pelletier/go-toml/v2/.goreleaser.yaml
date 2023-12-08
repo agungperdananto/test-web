@@ -8,7 +8,7 @@ builds:
     main: ./cmd/tomll
     binary: tomll
     env:
-      - CGO_ENABLED=0
+      # - CGO_ENABLED=0
     flags:
       - -trimpath
     ldflags:
@@ -27,7 +27,7 @@ builds:
     main: ./cmd/tomljson
     binary: tomljson
     env:
-      - CGO_ENABLED=0
+      # - CGO_ENABLED=0
     flags:
       - -trimpath
     ldflags:
@@ -46,7 +46,7 @@ builds:
     main: ./cmd/jsontoml
     binary: jsontoml
     env:
-      - CGO_ENABLED=0
+      # - CGO_ENABLED=0
     flags:
       - -trimpath
     ldflags:
